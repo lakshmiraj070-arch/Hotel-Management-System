@@ -1,76 +1,132 @@
 # Hotel Management System
 
-## Project Overview
+## Overview
 
-Hotel Management System is a Windows Forms desktop application developed using C# and SQL Server to simplify hotel operations.
+Hotel Management System is a Windows Forms desktop application developed using C#, ADO.NET, and SQL Server. The application is designed to manage hotel food items by performing Create, Read, Update, and Delete (CRUD) operations.
 
-The application helps manage customer details, room bookings, and billing processes efficiently through an easy-to-use interface.
+It allows users to efficiently manage food categories, pricing, and item availability through a simple Windows Forms interface.
+
+---
 
 ## Features
 
-- Customer registration and management
-- Room booking management
-- View and manage booking details
-- Billing calculation
-- SQL Server database integration
-- User-friendly Windows Forms interface
-- Efficient data storage and retrieval
+- Add Food Items
+- View Food Items
+- Update Food Details
+- Delete Food Items
+- Manage Food Categories
+- Manage Food Pricing
+- Manage Item Availability
+- SQL Server Database Integration
+- User-friendly Windows Forms Interface
+
+---
 
 ## Technologies Used
 
-### Programming Language
 - C#
-
-### Framework
 - Windows Forms (.NET)
-
-### Database
-- SQL Server
-
-### Tools
-- Visual Studio
+- ADO.NET
+- Microsoft SQL Server
+- Visual Studio 2022
 - SQL Server Management Studio
 - Git & GitHub
 
-## Application Workflow
+---
 
-1. User enters customer details through the Windows Forms interface.
-2. Booking information is captured and stored in SQL Server.
-3. Application retrieves and displays customer and booking records.
-4. Billing details are calculated based on booking information.
+## Project Structure
+
+```text
+HotelManagementSystem
+│
+├── Forms
+├── Models
+├── Database
+├── Program.cs
+├── App.config
+└── HotelManagementSystem.csproj
+```
+
+---
+
+## Modules
+
+### Food Management
+
+- Add Food Item
+- View Food Items
+- Edit Food Details
+- Delete Food Items
+
+### Category Management
+
+- Add Categories
+- Update Categories
+- Delete Categories
+
+### Price Management
+
+- Manage Food Prices
+- Update Pricing
+
+---
 
 ## Database
 
-Database: SQL Server
+The application uses Microsoft SQL Server with ADO.NET for database connectivity.
 
-Main modules:
-- Customer Management
-- Room Booking
-- Billing Management
+Example table columns:
 
-## Installation and Setup
+- FoodId
+- FoodName
+- Category
+- Price
+- Availability
 
-1. Clone the repository.
+---
 
-2. Open the project in Visual Studio.
+## Application Workflow
 
-3. Configure the SQL Server connection string.
+```text
+User
+   │
+   ▼
+Windows Forms
+   │
+   ▼
+ADO.NET
+   │
+   ▼
+SQL Server Database
+```
 
-4. Create the required database and tables.
-
-5. Build and run the Windows Forms application.
-
-## Screenshots
-
-(Add application screenshots here)
+---
 
 ## Future Enhancements
 
-- User authentication and login module
-- Room availability tracking
-- Online booking integration
-- Advanced reporting and analytics
+- User Authentication
+- Search and Filter
+- Billing Module
+- Inventory Management
+- Dashboard and Reports
+- Export to Excel/PDF
+
+---
+
+## Learning Outcomes
+
+- Windows Forms Development
+- C# Programming
+- ADO.NET
+- CRUD Operations
+- SQL Server Integration
+- Database Connectivity
+
+---
 
 ## Author
 
-Lakshmi Priya
+**Lakshmi Priya**
+
+GitHub:
+https://github.com/lakshmiraj070-arch
